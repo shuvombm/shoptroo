@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>shoptroo</title>
+
+        <!--Bootstrap min css -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--FontAwesome nin css -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+         <!--Owl carousel css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.css">
+        <!--Style css-->
+        <link rel="stylesheet" href="style.css">
+        <!--Responsive css-->
+        <link rel="stylesheet" href="responsive.css">
+
+        <!--jquery-1.12.0.min.js-->
+         <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!-- Header area -->
+            <header class="hrader-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="header-search-box">
+                                <form action="index.html">
+                                    <input type="text" placeholder="Search Cash back stores, coupons and products">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="header-right-menu">
+                                <ul>
+                                    <li><a href="how-works.html" class="work-and-login">how its work?</a></li>
+                                    <li><a href="" class="work-and-login show-login">log in/sign up</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="balance-option">
+                               <div class="user-profile-info">
+                                   <img src="assets/images/prifile.png" alt="">
+                                   <h4>exemple@info.com</h4>
+                                   <h3>rs. 302 <a href="" class="balance-option-triger"><i class="fa fa-caret-down"></i></a></h3>
+                               </div>
+                                <ul>
+                                    <li><a href=""><h3>pending</h3><h4>balance</h4><span><img src="assets/images/rs.png" alt="">rs.302</span></a></li>
+                                    <li><a href=""><h3>avilable</h3><h4>balance</h4><span><img src="assets/images/rs.png" alt="">rs.32</span></a></li>
+                                    <li><a href="" class="show-cashback">missing cashback</a></li>
+                                    <li><a href="rewards.html">redeem</a></li>
+                                    <li><a href="">help</a></li>
+                                    <li><a href="">logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </header>
+            
+            
+           <div class="login-overley"></div> 
+         <!-- Login sign-up form -->
+            <div class="login-signup-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                           <div class="login-signup">
+                              <a href="" class="close-login"><i class="fa fa-close"></i></a>
+                               <div class="row">
+                                <div class="col-md-12">
+                                    <div class="login-signup-menu">
+                                        <ul>
+                                            <li class="active"><a data-toggle="tab" href="#log-in">log in</a></li>
+                                            <li><a data-toggle="tab" href="#sign-up">sign up</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active fade-in" id="log-in">
+                                            <div class="login-form">
+                                                <form action="index.html">
+                                                    <div class="form-group">      
+                                                      <input type="email" required>
+                                                      <label>Email</label>
+                                                    </div>
+                                                    <div class="form-group">      
+                                                      <input type="password" required>
+                                                      <label>Password</label>
+                                                    </div>
+                                                  </form>
+                                                <a href="" class="forgot-password">forgot password?</a>
+                                                <button type="submit" class="boxed-btn">sign in</button>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="sign-up">
+                                            <div class="login-form">
+                                                <form action="index.html">
+                                                   <div class="form-group">      
+                                                      <input type="email" required>
+                                                      <label>Email-ID</label>
+                                                    </div>
+                                                    <div class="form-group">      
+                                                      <input type="tel" required>
+                                                      <label>Mobile No</label>
+                                                    </div>
+                                                    <div class="form-group">      
+                                                      <input type="password" required>
+                                                      <label>New Password</label>
+                                                    </div>
+                                                    <div class="form-group">      
+                                                      <input type="password" required>
+                                                      <label>Confirm Password</label>
+                                                    </div>
+                                                    <div class="form-group">      
+                                                      <input type="text" required>
+                                                      <label>City</label>
+                                                    </div>
+                                                    <p>
+                                                        <span>I go to</span>
+                                                        <input type="radio" name="place" value="college">
+                                                        <label>college</label> 
+                                                        <input type="radio" name="place" value="office">
+                                                        <label>office</label>
+                                                        <input type="radio" name="place" value="home"> 
+                                                        <label>stay home</label>
+                                                    </p>
+                                                    <p>
+                                                        <span>I am good</span>
+                                                        <input type="radio" name="relation" value="son" >
+                                                        <label for="radio-son">son</label>
+                                                        <input type="radio" name="relation" value="daughter" >
+                                                        <label for="radio-daughter">daughter</label>
+                                                        <input type="radio" name="relation" value="husband" >
+                                                        <label for="radio-husband">husband</label>
+                                                        <input type="radio" name="relation" value="wife" >
+                                                        <label for="radio-wife">wife</label>
+                                                    </p>
+                                                    
+                                                </form>
+                                                <button type="submit" class="boxed-btn">sign up</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+         <!-- missing-cashback -->
+            <div class="missing-cashback-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="missing-cashback">
+                               <a href="" class="close-cashback"><i class="fa fa-close"></i></a>
+                                <div class="row long-border">
+                                    <div class="col-md-12">
+                                        <div class="cashback-intro">
+                                            <img class="cashback-top-img" src="assets/images/flipkart-vector-logo.png" alt="">
+                                            <div class="cashback-intro-text">
+                                                <h3>flipkart</h3>
+                                                <h4>upto 7% rewards from shoptroo</h4>
+                                            </div>
+                                            <p>(spacial instructions)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="cashback-title">
+                                            <h2>help us track your cashback</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="cashback-bottom">
+                                            <img src="assets/images/cashback-bottom-1.jpg" alt="">
+                                            <span class="special-dotted-border"></span>
+                                            <p>Start with empty cart</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="cashback-bottom cashback-bottom-doted">
+                                            <img src="assets/images/cashback-bottom-2.jpg" alt="">
+                                            <span class="special-dotted-border"></span>
+                                            <p>Purchase in this session</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="cashback-bottom">
+                                            <img src="assets/images/cashback-bottom-3.jpg" alt="">
+                                            <p>Don't click others</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row text-center">
+                                    <a href="" class="boxed-btn">start shopping</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+         
+         <!-- Top menu area -->
+            <section class="top-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="top-menu">
+                                <ul>
+                                    <li><a href="index.html"><img src="assets/images/009-fire.png" alt="">popular</a></li>
+                                    <li><a href="page.html"><img src="assets/images/001-store.png" alt="">dining</a></li>
+                                    <li><a href=""><img src="assets/images/005-analytics.png" alt="">electronics</a></li>
+                                    <li><a href=""><img src="assets/images/007-shirt.png" alt="">fashion</a></li>
+                                    <li><a href=""><img src="assets/images/004-groceries.png" alt="">groceries</a></li>
+                                    <li><a href=""><img src="assets/images/006-cosmetics.png" alt="">health &amp; beauty</a></li>
+                                    <li><a href=""><img src="assets/images/003-armchair.png" alt="">home and living</a></li>
+                                    <li><a href=""><img src="assets/images/002-american-football.png" alt="">sports &amp; outdoors</a></li>
+                                    <li><a href=""><img src="assets/images/008-airplane.png" alt="">travel</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+           
+
+         <!-- Top cashback area -->
+            <section class="top-cashback-area">
+                <div class="container">
+                   <div class="row long-border">
+                       <div class="col-md-12">
+                           <div class="section-title">
+                               <h2>top cashback stores</h2>
+                           </div>
+                       </div>
+                   </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="cashback-wrapper">
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/flipkart-vector-logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>14% Rewords</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/EBay_logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>rs. 100 off</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/freecharge-large.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>8% Rewords</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/myntra-logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>12% Rewords</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/Zoom-Logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>153 deals</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/flipkart-vector-logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>14% Rewords</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/EBay_logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>rs. 100 off</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/freecharge-large.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>8% Rewords</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/myntra-logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>12% Rewords</h4>
+                                </div>
+                                <div class="single-cashback-box">
+                                    <div class="cashback-image-table">
+                                        <div class="cashback-image-tablecell">
+                                            <img src="assets/images/Zoom-Logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <h4>153 deals</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+           
+        
+         <!-- Hot deals area -->
+                       <div class="hot-deals-area">
+                        <div class="container">
+                            <div class="row long-border">
+                                <div class="col-md-5">
+                                    <div class="section-title">
+                                        <h2>hot deals</h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-7 text-right">
+                                    <div class="hot-tab-menu">
+                                        <ul>
+                                            <li class="active"><a data-toggle="tab" href="#just-in-2">just in 2</a></li>
+                                            <li><a data-toggle="tab" href="#under99">under 99</a></li>
+                                            <li><a data-toggle="tab" href="#under500">under 500</a></li>
+                                            <li><a data-toggle="tab" href="#80off">80% off</a></li>
+                                            <li class="dropdown">
+                                                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">filter by store<span class="caret"></span></a>
+                                                  <ul class="dropdown-menu">
+                                                    <li><a data-toggle="tab" href="#hot-sub-1" i>Flipkart</a></li>
+                                                    <li><a data-toggle="tab" href="#hot-sub-2">Snapdeal</a></li>
+                                                    <li><a data-toggle="tab" href="#hot-sub-3">Jabong</a></li>
+                                                  </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active fade-in" id="just-in-2">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-1">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-3">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/flipkart-vector-logo.png" alt="">
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-4">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/flipkart-vector-logo.png" alt="">
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="under99">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-3">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="under500">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-1">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="80off">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-1">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-4">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/flipkart-vector-logo.png" alt="">
+
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane fade" id="hot-sub-1">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-1">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-4">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/flipkart-vector-logo.png" alt="">
+
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="hot-sub-2">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-4">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/flipkart-vector-logo.png" alt="">
+
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div><div class="tab-pane fade" id="hot-sub-3">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-4">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/flipkart-vector-logo.png" alt="">
+
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-2">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/amazon-logo-preview.png" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <a href="#" class="hot-deals-prodect">
+                                                <div class="hot-deals-prodect-bg hot-deals-prodect-bg-4">
+                                                    <span>17%</span>
+                                                </div>
+                                                <div class="hot-product-content">
+                                                    <h3>philips gc4080 steam iron (blue)</h3>
+                                                    <div class="product-price">
+                                                        <h3>&#8377;248</h3>
+                                                        <h4>&#8377;300</h4>
+                                                    </div>
+                                                </div>
+                                                <div class="product-company">
+                                                    <img class="company-1" src="assets/images/flipkart-vector-logo.png" alt="">
+
+                                                    <span><img class="rs-logo" src="assets/images/rs.png" alt="">rs 50</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+           
+            
+           
+
+        
+           
+
+      
+        <!--Bootstrap min js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!--Owl carousel min js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!--Main js-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
+

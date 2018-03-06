@@ -1,0 +1,1011 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: 
+    Template URI: 
+    Description: T
+    Author: 
+    Author 
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+
+
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+* {
+    margin: 0;
+    padding: 0;
+}
+    .alignleft {
+        float: left;
+        margin-right: 15px;
+    }
+    .alignright {
+        float: right;
+        margin-left: 15px;
+    }
+    .aligncenter {
+        display: block;
+        margin: 0 auto 15px;
+    }
+    a:focus { outline: 0 solid }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        margin: 0 0 15px;
+        font-weight: 700;
+    }
+    a:hover, a:focus{
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .row.long-border {
+      border-bottom: 2px solid #ddd;
+      margin-bottom: 30px;
+    }
+    .section-title h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #5BBF40;
+      border-bottom: 3px solid;
+      display: inline-block;
+      margin: 0;
+      padding-bottom: 10px;
+    }
+    .boxed-btn {
+      background: #5BBF40;
+      display: inline-block;
+      text-transform: capitalize;
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 4px;
+      -webkit-transition: .3s;
+      transition: .3s;
+      font-weight: 700;    
+    }
+    .boxed-btn:hover{
+        background: #F30503;
+        color: #fff;
+    }
+    
+
+/*** Header area ***/
+.hrader-area {
+  background: #010F0F;
+  
+}
+.logo,  .header-search-box, .header-right-menu {
+  padding-top: 10px;
+}
+
+.header-right-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 15px;
+}
+.header-right-menu ul li {
+  display: inline-block;
+}
+.header-right-menu ul li a.app-logo{
+    border: none;
+}
+.header-right-menu ul li a {
+  padding: 6px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border: 1px solid;
+  font-size: 13px;    
+}
+.header-right-menu ul li a.work-and-login:hover {
+  border: 1px solid #5BBF40;
+  background: #5BBF40;    
+}
+.header-search-box input[type=text] {
+  width: 89%;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  padding-right: 0;
+  border: 1px solid #5CBE40;
+  border-right: 0;
+}
+.header-search-box form {
+  border-radius: 50px;
+}
+.header-search-box button[type=submit] {
+  background: #5BBF40;
+  border: none;
+  color: #fff;
+  padding: 7px 0px;
+  border-radius: 0px 50px 50px 0px;
+  width: 10%;
+  margin-left: -4px;
+}
+.header-search-box {
+  margin-top: 8px;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: #333;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #333;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #333;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #333;
+  opacity: 1;
+}
+
+/*** Top menu area ***/
+
+.top-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.top-menu ul li {
+  display: inline-block;
+}
+.top-menu ul li a img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+.top-menu ul li a {
+  display: block;
+  color: #333;
+  text-transform: capitalize;
+  padding: 10px 25px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-bottom: 3px solid transparent;
+}
+
+.top-menu ul li a.active-top-menu{
+   border-bottom: 3px solid #5BBF40; 
+}
+
+.top-menu {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-top: 10px;
+}
+/*** Top cashback area ***/
+
+.top-cashback-area {
+  padding-top: 60px;
+}
+
+.cashback-image-table {
+  display: table;
+  width: 100%;
+  height: 80px;
+}
+.cashback-image-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-cashback-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+.single-cashback-box h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 16px;
+}
+
+.cashback-wrapper .owl-nav div {
+  display: inline-block;
+  color: #666;
+  border: 2px solid #ddd;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 50%;
+  margin: 4px;
+  -webkit-transition: .3s;
+  transition: .3s;    
+}
+.cashback-wrapper .owl-nav {
+  position: absolute;
+  top: -72px;
+  right: 0;
+}
+.cashback-wrapper .owl-nav div:hover{
+    color: #5BBF40;
+    border: 2px solid #5BBF40;
+}
+/*** Hot deals area ***/
+
+.row.long-border {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 30px;
+}
+.hot-tab-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hot-tab-menu ul li {
+  display: inline-block;
+}
+.hot-tab-menu ul li a {
+  display: block;
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 12px 20px;
+}
+.hot-deals-area {
+  padding: 60px 0px;
+}
+
+.hot-tab-menu ul li.active {
+  border: 2px solid #ddd;
+  border-bottom: 0px solid;
+  border-radius: 4px 4px 0px 0px;
+  position: relative;
+}
+.hot-tab-menu ul li.active:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -5px;
+  height: 5px;
+  width: 100%;
+  background: #fff;
+  z-index: 2;
+}
+.dropdown-toggle .caret{
+    margin-left: 6px;
+}
+.hot-tab-menu ul li ul {
+	position: absolute;
+	border: 2px solid #ddd;
+	top: 44px;
+	left: 0;
+	border-radius: 5px;
+	transition: .3s;
+	z-index: 9;
+	background: #fff;
+    width: 100%;
+}
+
+.hot-tab-menu ul li ul li {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.hot-tab-menu ul li ul li:last-child {
+  border-bottom: none;
+}
+.hot-tab-menu ul li ul li a {
+  font-size: 12px;
+  transition: .3s;
+  color: #000;
+  display: block;
+}
+.hot-tab-menu ul li ul li.active{
+    border: none;
+}
+.hot-tab-menu .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover{
+    background: #5BBF40;
+    
+}
+.hot-tab-menu ul li ul li.active a{
+    color: #333;
+}
+.hot-tab-menu ul li ul li a:hover{
+    background: #5BBF40;
+    color: #fff;
+}
+.hot-deals-prodect-bg-1{background-image: url(assets/images/product-box-bg-1.png);}
+.hot-deals-prodect-bg-2{background-image: url(assets/images/product-box-bg-2.png);}
+.hot-deals-prodect-bg-3{background-image: url(assets/images/product-box-bg-3.jpg);}
+.hot-deals-prodect-bg-4{background-image: url(assets/images/product-box-bg-4.jpg);}
+
+
+.hot-deals-prodect-bg {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  z-index: 1;
+    
+}
+a.hot-deals-prodect {
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	display: block;
+	margin-bottom: 30px;
+}
+
+.hot-product-content {
+  padding: 5px;
+  color: #888;
+  text-transform: capitalize;
+}
+.product-price {
+  text-align: right;
+}
+.product-price h3 {
+  display: inline-block;
+  color: #F30503;
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 8px;
+}
+.product-price h4 {
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: line-through;
+}
+
+.product-company {
+  border-top: 1px solid #ddd;
+  padding: 5px;    
+}
+.hot-deals-prodect-bg:after{
+     -webkit-transition: .4s;
+     transition: .4s;
+    content: "";
+}
+.hot-deals-prodect:hover .hot-deals-prodect-bg:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #D3EECD;
+	z-index: -1;
+	opacity: .6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    
+}
+.hot-deals-prodect:hover .hot-product-content > h3{
+    color: #5BBF40;
+}
+.hot-deals-prodect:hover .hot-deals-prodect-bg span{
+    background: #F30503;
+}
+.product-company span {
+	padding-left: 45px;
+	text-transform: capitalize;
+	font-weight: 700;
+	color: #999;
+}
+.hot-product-content h3{
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.hot-deals-prodect-bg span {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 40px;
+	width: 40px;
+	background: #8EBF40;
+	color: #fff;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 50%;
+    transition: .3s;
+}
+
+
+
+
+/*** User-profile, login-signup & missing-cashback ***/
+
+.user-profile-info img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+.user-profile-info {
+  color: #fff;
+  background: #5BBF40;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.user-profile-info h4 {
+  font-size: 15px;
+  margin: 0 0 5px;
+}
+.user-profile-info h3 {
+  text-transform: capitalize;
+  margin: 0;    
+}
+
+
+.balance-option ul li a h3 {
+  margin: 0 0 4px;
+}
+.balance-option ul li a h4 {
+  margin: 0;
+  display: inline-block;
+}
+.balance-option ul li a span {
+  float: right;
+  margin-top: -14px;
+}
+.balance-option ul {
+  background: #fff;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  list-style: none;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  display: none;
+}
+.balance-option ul li a {
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  text-transform: capitalize;
+  padding: 10px 0;
+  display: block;
+  font-weight: 700;
+}
+.balance-option ul li a h4 {
+  color: #777;
+}
+.balance-option ul li:last-child a {
+  border: none;
+}
+.balance-option ul.balance-active {
+	display: block;
+}
+a.balance-option-triger {
+	color: #fff;
+	float: right;
+    padding: 2px 20px;
+}
+
+.login-signup-menu ul, .mobile-recharge-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.login-signup-menu ul li, .mobile-recharge-menu ul li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+.login-signup-menu, .mobile-recharge-menu  {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login-signup-menu ul li a, .mobile-recharge-menu ul li a {
+  display: block;
+  text-transform: capitalize;
+  color: #333;
+  font-weight: 700;
+  font-size: 25px;
+}
+.login-signup-menu ul li.active a, .mobile-recharge-menu ul li.active a {
+  color: #5BBF40;
+}
+
+.login-signup-menu ul li.active, .mobile-recharge-menu ul li.active  {
+  border-bottom: 3px solid #5BBF40;
+}
+.login-form form input[type=text], .login-form form input[type=email], .login-form form input[type=tel], .login-form form input[type=password], .mobile-recharge-form form input[type=tel], .mobile-recharge-form form input[type=text]{
+  display: block;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #ddd;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+a.forgot-password {
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 20px 0;
+  display: block;
+  text-align: right;
+}
+.login-signup {
+  border: 1px solid #ddd;
+  padding: 30px;
+  margin: 30px;
+}
+
+.mobile-recharge-form p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.mobile-recharge-form p span {
+  padding: 10px 40px;
+}
+
+.form-section-title p {
+  color: #787373;
+  font-size: 16px;
+}
+.form-section-title h3 {
+  margin: 0 0 6px;
+}
+.mobile-recharge-wrapper {
+  padding: 50px 0;
+}
+.mobile-recharge {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 40px;
+}
+.form-section-title {
+  margin-bottom: 50px;
+}
+
+button.boxed-btn {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;    
+}
+
+.login-form form p label {
+  text-transform: capitalize;
+  padding-right: 14px;
+}
+.login-form form p {
+  margin: 0;
+  margin-top: 10px;
+}
+.login-form form p span{
+    padding-right: 5px;
+}
+.login-signup {
+	position: absolute;
+	background: #fff;
+	z-index: 99;
+	width: 100%;
+    display: none;
+}
+a.close-login, a.close-cashback {
+	color: #333;
+	position: absolute;
+	right: 20px;
+	display: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	top: 10px;
+	z-index: 999;
+}
+.login-signup.login-active, .login-overley.cashback-active{
+    display: block;
+}
+.login-overley {
+	position: fixed;
+	z-index: -9;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: .3s;
+    transition: .3s;
+    overflow: hidden;
+}
+.login-overley.login-active, .login-overley.cashback-active{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    z-index: 95;
+}
+
+.cashback-top-img {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+}
+.cashback-intro-text {
+  padding-left: 120px;
+  text-transform: capitalize;
+}
+.cashback-intro-text h3 {
+  margin: 0;
+}
+.cashback-intro-text h4 {
+	color: #5BBF40;
+}
+.cashback-intro p {
+  text-align: right;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #107AD3;
+  font-size: 16px;
+}
+.cashback-title h2 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #777;
+  margin: 0 0 30px;
+}
+.cashback-bottom {
+  text-align: center;
+}
+.cashback-bottom img {
+  width: 55px;
+  height: 55px;
+}
+.missing-cashback {
+	position: absolute;
+	background: #fff;
+	z-index: 99;
+	padding: 20px;
+	border: 1px solid #ddd;
+    display: none;
+}
+.missing-cashback.cashback-active {
+	display: block;
+}
+.missing-cashback .boxed-btn{
+    margin-top: 20px;
+}
+.cashback-bottom p {
+	font-weight: 400;
+	font-size: 18px;
+}
+.special-dotted-border {
+	position: absolute;
+	left: 184px;
+	top: -32px;
+	height: 135px;
+	width: 0;
+	border-right: 1px dotted #999;
+	-webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+}
+
+
+
+/*** How shopthroo works ***/
+.how-workes-area {
+	padding: 50px 0;
+}
+.how-works-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.how-works-menu ul li {
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+}
+.how-works-menu ul li a {
+  display: block;
+  color: #7D7A79;
+  text-transform: capitalize;
+  font-size: 30px;
+  padding: 10px;
+}
+.how-works-menu {
+  margin-bottom: 80px;
+}
+.how-works-menu ul li.active {
+  border-bottom: 3px solid #5BBF40;
+}
+.how-works-menu ul li.active a {
+  color: #5BBF40;
+}
+.why-shopthroo .row {
+  margin-bottom: 50px;
+}
+.why-shopthroo h3 {
+  text-transform: capitalize;
+}
+.why-shopthroo p {
+  color: #797373;
+}
+
+.how-cashback-work h1 {
+  color: #E84643;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+.how-cashback-work {
+  color: #7D7A79;
+  font-size: 18px;
+}
+.single-cashback-step {
+  margin-top: 50px;
+}
+.single-cashback-step img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.single-cashback-step h3 {
+  color: #5BBF40;
+  text-transform: capitalize;
+}
+
+.single-question {
+  margin-top: 20px;
+}
+.single-question p {
+  color: #797373;
+}
+
+.single-contact-box, .cashback-form-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  min-height: 240px;    
+}
+.contact-box-title, .cashback-form-title {
+	text-align: left;
+}
+.contact-box-title h2, .cashback-form-title h2 {
+  text-transform: capitalize;
+  font-weight: 400;
+  display: inline-block;
+  border-bottom: 3px solid #5BBF40;
+  padding-bottom: 5px;
+  margin-bottom: 20px;    
+}
+.contact-box-title h2 i.fa, .cashback-form-title h2 i.fa {
+  padding-right: 8px;
+  font-size: 25px;
+}
+
+.contact-box-text h4, .contact-box-text h5 {
+  color: #7B7879;
+  margin: 0 0 10px;
+}
+.contact-box-text h3 {
+  color: #618ED2;
+}
+.contact-box-text input, .contact-box-text textarea, .cashback-form input{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.contact-box-text textarea{
+    height: 50px;
+    resize: none;
+}
+.contact-box-text form, .cashback-form form{
+  padding: 0 50px;
+}
+.cashback-form-wrapper {
+	padding: 50px 0;
+}
+
+/*** Rewards page ***/
+
+
+.single-sidebar-box {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.single-sidebar-box p {
+  text-align: left;
+}
+.sidebar-box-inner {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 10px;
+}
+.single-sidebar-box h4 {
+  color: #7A7776;
+  text-transform: capitalize;
+}
+.single-sidebar-box h3{
+    text-transform: capitalize;
+}
+.sidebar-box-inner:last-child {
+  border-bottom: none;
+}
+
+.rewards-wrapper {
+  padding: 50px 0;
+}
+.rewards-tab-wrapper img {
+  margin-bottom: 10px;
+}
+.rewards-tab-intro h2 {
+  color: #5BBF40;
+  margin: 0;
+  padding-top: 4px;
+}
+.rewards-tab-intro .boxed-btn {
+  padding: 13px 50px;
+}
+.rewards-tab-intro h4 {
+  padding-left: 165px;
+}
+.rewards-tab-intro {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 35px;
+}
+.rewards-tab-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.rewards-tab-menu ul li {
+  display: inline-block;
+}
+.rewards-tab-menu ul li a {
+  display: block;
+  color: #333;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 5px 20px;
+}
+.rewards-tab-menu ul li.active {
+  border-bottom: 3px solid #5BBF40;
+}
+.rewards-tab-menu ul li.active a {
+  color: #5BBF40;
+}
+.single-rewards-cashback {
+  border: 1px solid #ddd;
+  padding: 20px 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.single-rewards-cashback h3 {
+  text-transform: capitalize;
+  margin: 0 0 5px;
+}
+h4.cashback-color {
+  color: #DF7E4A;
+  text-transform: capitalize;
+}
+.single-rewards-cashback .boxed-btn {
+  margin-top: 14px;
+}
+
+.rewards-hot-deals .product-company img {
+  max-width: 55px;
+  height: 25px;
+}
+.rewards-hot-deals .product-company span {
+  padding-left: 20px;
+}
+.rewards-hot-deals .hot-product-content h3 {
+  font-size: 16px;
+}
+.rewards-hot-deals .product-price h3 {
+  font-size: 20px;
+}
+.rewards-hot-deals .product-price h4 {
+  font-size: 17px;
+}
+.product-price h5 {
+	float: left;
+	text-transform: capitalize;
+	color: #5BBF40;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.single-rewards-coupons {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.single-rewards-coupons h3 {
+  color: #5BBF40;
+}
+.single-rewards-coupons h4 {
+  color: #777;
+}
+a.bordered-btn {
+  display: inline-block;
+  color: #5BBF40;
+  text-transform: capitalize;
+  font-weight: 700;
+  border: 1px solid;
+  padding: 10px 70px;
+  border-radius: 4px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+a.bordered-btn:hover {
+  background: #5BBF40;
+  color: #fff;
+}
+.single-rewards-coupons h4.cashback-color {
+  color: #DF7E4A;
+}
+
+
+
+
+
+
+
+.form-group 			  { 
+  position:relative; 
+  margin-bottom:20px; 
+}
+.form-group input, .form-group textarea 
+  display:block;
+  border:none;
+}
+.form-group input:focus, .form-group textarea:focus{ 
+  outline:none;
+}
+
+/* LABEL ======================================= */
+.form-group label  {
+  color:#999;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+.form-group input:focus ~ label,.form-group input:valid ~ label, .form-group textarea:focus ~ label{
+  top:-10px;
+  font-size:12px;
+  color:#5BBF40;
+}
+
+
+
+
+
+.form-group input:focus, .form-group input:textarea {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+
+
+
+
+
+
+
+

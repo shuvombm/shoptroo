@@ -1,0 +1,430 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+
+    .user-profile-info img {
+      margin-right: 5px;
+    }
+    .user-profile-info h4 {
+      font-size: 12px;
+    }
+    a.balance-option-triger {
+      padding: 0;
+    }
+    .user-profile-info h3 {
+      font-size: 20px;
+    }
+    .header-right-menu ul li a {
+      font-size: 10px;
+      padding: 5px;
+    }
+    .header-search-box, .header-right-menu {
+      padding-top: 5px;
+    }
+    
+    .top-menu ul li a {
+      padding: 10px 15px;
+    }
+    .single-cashback-box h4 {
+      font-size: 14px;
+    }
+    .product-company span {
+      padding-left: 0;
+    }
+    .how-works-menu ul li a {
+        font-size: 22px;
+    }
+    .product-price h3 {
+      display: block;
+      float: none;
+      margin: 0;
+    }
+    .hot-product-content {
+    }
+    .product-price h4 {
+      display: block;
+      float: none;
+      padding: 0;
+    }
+    .rewards-hot-deals .product-company span {
+        padding-left: 0;
+    }
+    .special-dotted-border{
+        display: none;
+    }
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+   
+    .logo {
+      text-align: center;
+    }
+    .header-right-menu {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .header-right-menu ul li a {
+      font-size: 16px;
+    }
+    .balance-option ul {
+        position: relative;
+        margin-bottom: 20px;
+    }
+   .how-works-menu ul li a {
+        font-size: 18px;
+    }
+    .balance-option {
+        margin: 15px 0;
+    }
+    
+    .single-rewards-cashback {
+      text-align: center;
+    }
+    .single-rewards-coupons {
+      text-align: center;
+    }
+    .special-dotted-border{
+        display: none;
+    }
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+     .logo {
+      text-align: center;
+    }
+    .header-right-menu {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .balance-option ul {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    
+    .hot-tab-menu ul li.active::after {
+      display: none;
+    }
+    .hot-tab-menu ul li.active, .how-works-menu ul li.active, .rewards-tab-menu ul li.active, .mobile-recharge-menu ul li.active{
+      border: none;
+      background: #5BBF40;
+      border-radius: 5px;
+    }
+    .hot-tab-menu ul li, .how-works-menu ul li, .rewards-tab-menu ul li, .mobile-recharge-menu ul li {
+      display: block;
+    }
+    .hot-tab-menu ul, .how-works-menu ul, .rewards-tab-menu ul, .mobile-recharge-menu ul {
+      text-align: center;
+    }
+    .hot-tab-menu ul li a, .how-works-menu ul li a, .rewards-tab-menu ul li a, .mobile-recharge-menu ul li a{
+      border: 1px solid #5BBF40;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      transition: .3s;    
+    }
+    
+    .hot-tab-menu ul li.active a, .how-works-menu ul li.active a, .rewards-tab-menu ul li.active a, .mobile-recharge-menu ul li.active a{
+      color: #000;
+    }
+    .hot-tab-menu ul li a:hover, .how-works-menu ul li a:hover, .rewards-tab-menu ul li a:hover, .mobile-recharge-menu ul li a:hover{
+        background: #5BBF40;
+        color: #fff;
+    }
+    .section-title {
+      margin-bottom: 20px;
+    }
+    
+    
+    .section-title h2 {
+      font-size: 20px;
+    }
+    .row.long-border {
+      border: none;
+    }
+    .cashback-wrapper .owl-nav {
+      top: -40px;
+    }
+    .balance-option {
+        margin: 10px 0;
+    }
+    .how-works-menu ul li a {
+        font-size: 16px;
+    }
+    .how-works-menu h2 {
+        font-size: 22px;
+    }
+    .single-why-box {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .single-why-box img {
+      margin-bottom: 15px;
+    }
+    
+    .contact-box-text h1 {
+      font-size: 18px;
+    }
+    .contact-box-text form {
+      padding: 0;
+    }
+    
+    .rewards-tab-intro {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .rewards-tab-intro h4 {
+      padding: 0;
+    }
+    .single-rewards-cashback {
+      text-align: center;
+    }
+    .single-rewards-coupons {
+      text-align: center;
+    }
+    .single-rewards-coupons h2 {
+      font-size: 20px;
+    }
+    .rewards-tab-menu ul li a {
+        font-size: 18px;
+    }
+    .top-menu ul li a {
+        padding: 10px;
+    }
+    .login-signup {
+      width: auto;
+      width: auto;
+    }
+    .login-form p span {
+      display: block;
+    }
+    .login-form p {
+      text-align: center;
+    }
+    .special-dotted-border{
+        display: none;
+    }
+    
+    ::-webkit-input-placeholder { /* Chrome */
+      font-size: 10px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      font-size: 10px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      font-size: 10px;
+    }
+    :-moz-placeholder { /* Firefox 4 - 18 */
+      font-size: 10px;
+    }
+    
+    .hot-tab-menu ul li ul{
+        padding-top: 10px;
+    }
+    .hot-tab-menu ul li ul li {
+      width: 90%;
+      margin: 0 auto;
+    }
+    
+    .cashback-form form {
+      padding: 0;
+    }
+    .cashback-form-title h2 {
+      font-size: 20px;
+    }
+    .form-section-title{
+        text-align: center;
+    }
+    .mobile-recharge-menu ul li a {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    .mobile-recharge-form p span{
+        padding: 3px;
+    }
+    .mobile-recharge {
+        padding: 20px;
+    }
+    .form-group label{
+        font-size: 12px;
+    }
+    .form-group input:focus ~ label,.form-group input:valid ~ label, .form-group textarea:focus ~ label{
+        font-size: 10px;
+    }
+    
+    a.forgot-password {
+        text-align: center;
+    }
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+    .logo {
+      text-align: center;
+    }
+    .header-right-menu {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .balance-option ul {
+        position: relative;
+        margin-bottom: 20px;
+    }
+   
+    .hot-tab-menu ul li.active::after {
+      display: none;
+    }
+    .hot-tab-menu ul li.active, .how-works-menu ul li.active, .rewards-tab-menu ul li.active, .mobile-recharge-menu ul li.active {
+      border: none;
+      background: #5BBF40;
+      border-radius: 5px;
+    }
+    .hot-tab-menu ul li, .how-works-menu ul li, .rewards-tab-menu ul li, .mobile-recharge-menu ul li{
+      display: block;
+    }
+    .hot-tab-menu ul, .how-works-menu ul, .rewards-tab-menu ul, .mobile-recharge-menu ul {
+      text-align: center;
+    }
+    .hot-tab-menu ul li a, .how-works-menu ul li a, .rewards-tab-menu ul li a, .mobile-recharge-menu ul li a{
+      border: 1px solid #5BBF40;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      transition: .3s;    
+    }
+    
+    .hot-tab-menu ul li.active a, .how-works-menu ul li.active a, .rewards-tab-menu ul li.active a, .mobile-recharge-menu ul li.active a{
+      color: #333;
+    }
+    .hot-tab-menu ul li a:hover, .how-works-menu ul li a:hover, .rewards-tab-menu ul li a:hover,.mobile-recharge-menu ul li a:hover{
+        background: #5BBF40;
+        color: #fff;
+    }
+    .mobile-recharge-menu ul li a {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+    .section-title {
+      margin-bottom: 20px;
+    }
+    
+    .section-title h2 {
+      font-size: 20px;
+    }
+    .row.long-border {
+      border: none;
+    }
+    .cashback-wrapper .owl-nav {
+      top: -40px;
+    }
+    .balance-option {
+        margin: 10px 0;
+    }
+    .how-works-menu ul li a {
+        font-size: 16px;
+    }
+    .how-works-menu h2 {
+        font-size: 22px;
+    }
+    
+    .single-why-box {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .single-why-box img {
+      margin-bottom: 15px;
+    }
+        .contact-box-text h1 {
+      font-size: 18px;
+    }
+    .contact-box-text form {
+      padding: 0;
+    }
+        .rewards-tab-intro {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .rewards-tab-intro h4 {
+      padding: 0;
+    }
+    .single-rewards-cashback {
+      text-align: center;
+    }
+    .single-rewards-coupons {
+      text-align: center;
+    }
+    .single-rewards-coupons h2 {
+      font-size: 20px;
+    }
+    .rewards-tab-menu ul li a {
+        font-size: 18px;
+    }
+    .top-menu ul li a {
+        padding: 10px;
+    }
+    .login-signup {
+      width: auto;
+      width: auto;
+    }
+    .login-form p span {
+      display: block;
+    }
+    .login-form p {
+      text-align: center;
+    }
+    .special-dotted-border{
+        display: none;
+    }
+    ::-webkit-input-placeholder { /* Chrome */
+      font-size: 12px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      font-size: 12px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      font-size: 12px;
+    }
+    :-moz-placeholder { /* Firefox 4 - 18 */
+      font-size: 12px;
+    }
+
+    .hot-tab-menu ul li ul{
+        padding-top: 10px;
+    }
+    .hot-tab-menu ul li ul li {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .cashback-form form {
+      padding: 0;
+    }
+    .cashback-form-title h2 {
+      font-size: 20px;
+    }
+    .form-section-title{
+        text-align: center;
+    }
+    .mobile-recharge-form p span{
+        padding: 3px;
+    }
+    .mobile-recharge {
+        padding: 20px;
+    }
+    .form-group label{
+        font-size: 12px;
+    }
+    .form-group input:focus ~ label,.form-group input:valid ~ label, .form-group textarea:focus ~ label{
+        font-size: 10px;
+    }
+
+}
